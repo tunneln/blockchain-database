@@ -2,7 +2,7 @@
 An extremely barebones implementation of a blockchain database network made for
 practice and learning purposes.
 
-A detailed overview of Blockchain Databases can be found in my short paper found in the repo
+A detailed overview of Blockchain Databases can be foundin my short paper [here](https://www.cs.utexas.edu/~noel/Blockchain.pdf) or simply found in the repo
 
 ###What it can do:
 	* The blockchain is interfaced to via the netowrk
@@ -24,30 +24,30 @@ A proof-of-work algorithm is also not implemented for appending new blocks due t
 	nature of this implentation
 
 ###How to play with it:
-	To test the blockchain server
-	run $./run.sh then wait a moment
+run `$./run.sh`
 
-	You can now run the outputted url in a browser
-	Actions are invoked via POST and GET requests (by url extensions or using curl)
-	see code for descriptions of each request and it's corresponding action
+You can now run the outputted url in a browser
+Actions are invoked via POST and GET requests (by url extensions or using curl)
+see code for descriptions of each request and it's corresponding action
 
-
-	NOTE:  nothing in the templates folder was made by me
+NOTE:  nothing in the templates folder was made by me
 
 ###REQUIRED LIBRARIES:
-	requests
-	click
-	Flask (or gunicorn, see run.sh)
-	redis
+* requests
+* click
+* Flask (or gunicorn, see run.sh)
+* redis
 
 Run the following to resolve any dependency issues:
 
 `$ sudo pip install requests click Flask redis`
 
 If you don't have pip:
-	```
-	$ wget https://bootstrap.pypa.io/get-pip.py
-	$ sudo python2.7 get-pip.py
-	```
+
+```
+$ wget https://bootstrap.pypa.io/get-pip.py
+
+$ sudo python2.7 get-pip.py
+```
 
 
