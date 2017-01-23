@@ -30,7 +30,7 @@ You can now run the outputted url in a browser
 Actions are invoked via POST and GET requests (by url extensions or using curl)
 see code for descriptions of each request and it's corresponding action
 
-NOTE:  nothing in the templates folder was made by me
+Acknowledgement: Nothing in the 'static' folder was made by me
 
 ###REQUIRED LIBRARIES:
 * requests
@@ -38,16 +38,16 @@ NOTE:  nothing in the templates folder was made by me
 * Flask (or gunicorn, see run.sh)
 * redis
 
-Run the following to resolve any dependency issues:
+To resolve all dependency issues:
 
-`$ sudo pip install requests click Flask redis`
+`$ pip install requests click Flask redis`
 
 If you don't have pip:
 
 ```
 $ wget https://bootstrap.pypa.io/get-pip.py
 
-$ sudo python2.7 get-pip.py
+$ python2.7 get-pip.py
 ```
 
 
