@@ -2,7 +2,7 @@
 An extremely barebones implementation of a blockchain database network made for
 practice and learning purposes.
 
-A detailed overview of Blockchain Databases can be foundin my short paper [here](https://www.cs.utexas.edu/~noel/Blockchain.pdf) or simply found in the repo
+A detailed overview of Blockchain Databases can be foundin my short paper [here](https://docs.google.com/document/d/1jimCWtxFet6Qwl5BZowUGdFrHc92TDhQaq0-1n1YbTs/edit?usp=sharing) or simply found in the repo
 
 ### What it can do:
 	* The blockchain is interfaced to via the netowrk
